@@ -11,5 +11,9 @@ public class PlayerRespawn : MonoBehaviour
         {
             transform.position = respawn.transform.position;
         }
+        else if (other.gameObject.CompareTag("Checkpoint"))
+        {
+            respawn = other.transform;
+        }
     }
 }
