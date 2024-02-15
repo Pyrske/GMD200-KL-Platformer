@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GroundTile
+  m_Name: rock1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 7482667652216324306, guid: 1d2d203555ea95c47b6490915af46860, type: 3}
+  m_Sprite: {fileID: 1494874333, guid: 8193a56600581fc4c9623e5038f73196, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
