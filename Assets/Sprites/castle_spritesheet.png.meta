@@ -647,6 +647,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: door
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98a58a7771ad4148a14d1c1da103ca2
+      internalID: -1675010773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abacus
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3160853b7a15e0f44ac4b7a8b3fb0c4b
+      internalID: 94099359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -658,6 +700,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      abacus: 94099359
       bookshelf_left: 237121703
       bookshelf_middle: -1886928445
       bookshelf_right: 805635986
@@ -682,6 +725,7 @@ TextureImporter:
       castle_top_left: 1385569579
       castle_top_right: 1012251352
       crystal_ball: 448598231
+      door: -1675010773
       potion1: 1742165751
       potion2: 1737730407
       rock1: 1494874333
