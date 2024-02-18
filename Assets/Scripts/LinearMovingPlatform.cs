@@ -2,21 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class LinearMovingPlatform : BaseMovingPlatform
 {
     [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private Transform[] movePoints;
 
     private int _pointIndex = 0;
     private Transform _currentPoint;
-
-    private SpriteRenderer _renderer;
-
-    // Start is called before the first frame update
-    void Start()
+    
+    protected override void Start()
     {
+        base.Start();
         _currentPoint = movePoints[_pointIndex];
-        _renderer = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate()
@@ -32,6 +29,6 @@ public class MovingPlatform : MonoBehaviour
         _pointIndex++;
         _pointIndex %= movePoints.Length;
         _currentPoint = movePoints[_pointIndex];
-        _renderer.flipX = transform.position.x > _currentPoint.position.x;
+        SetDirection(transform.position.x < _currentPoint.position.x);
     }
 }

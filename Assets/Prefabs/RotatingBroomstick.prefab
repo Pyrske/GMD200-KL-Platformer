@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848692022513050184}
   m_Layer: 0
-  m_Name: Broomstick
+  m_Name: RotatingBroomstick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,8 +30,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6746412669894389770}
-  - {fileID: 4015361447818385324}
-  - {fileID: 5732244157193229786}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5553564625952481171
@@ -45,7 +43,7 @@ GameObject:
   - component: {fileID: 6746412669894389770}
   - component: {fileID: 1530606353346213229}
   - component: {fileID: 9114378023944062842}
-  - component: {fileID: 5338437160510418527}
+  - component: {fileID: 1223541241045965010}
   m_Layer: 0
   m_Name: Platform
   m_TagString: MovingPlatform
@@ -165,7 +163,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 0.25}
   m_EdgeRadius: 0
---- !u!114 &5338437160510418527
+--- !u!114 &1223541241045965010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,72 +172,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5553564625952481171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54b9d1a605f622d47a4482e229028aad, type: 3}
+  m_Script: {fileID: 11500000, guid: 969ee5768659c6540a9daba3ed44a592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2.5
-  movePoints:
-  - {fileID: 4015361447818385324}
-  - {fileID: 5732244157193229786}
---- !u!1 &5934713010783717615
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5732244157193229786}
-  m_Layer: 0
-  m_Name: PlatformPosition (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5732244157193229786
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5934713010783717615}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 848692022513050184}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8024119312080555616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4015361447818385324}
-  m_Layer: 0
-  m_Name: PlatformPosition
-  m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4015361447818385324
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8024119312080555616}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 848692022513050184}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  rotateSpeed: 60
+  radius: 2

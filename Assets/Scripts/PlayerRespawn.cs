@@ -10,7 +10,6 @@ public class PlayerRespawn : MonoBehaviour
         if (other.gameObject.CompareTag("Hazard"))
         {
             transform.position = respawn.transform.position;
-            PlayerHealth.Damage();
         }
         else if (other.gameObject.CompareTag("Checkpoint"))
         {
