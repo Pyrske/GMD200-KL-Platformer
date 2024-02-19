@@ -689,6 +689,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: castle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649537e91f4ee0642a8a2d84fdabdfc6
+      internalID: -1966609342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f473715956b64eafc272f3b92ffe0
+      internalID: 939987796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d25e2afc98b8549b14a10ec9a8b911
+      internalID: 1452521559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -718,9 +781,12 @@ TextureImporter:
       castle_inner_top_right: -1811224566
       castle_left: -909133005
       castle_right: -482015390
+      castle_spritesheet_0: -1966609342
+      castle_spritesheet_1: 939987796
       castle_spritesheet_16: 1009272962
       castle_spritesheet_17: 1979472756
       castle_spritesheet_18: -853738204
+      castle_spritesheet_2: 1452521559
       castle_top: 242619934
       castle_top_left: 1385569579
       castle_top_right: 1012251352
